@@ -79,6 +79,51 @@
     echo"<br>";
     echo "Os ".$sete." ferozes também ficam ".$oito.".";
     echo"<br>";
+
+    
+    //exercício 03
+    // fazer testes
+    $var01 = true;
+    $var02 = false;
+    $var03 = 0;
+    $var04 = 1;
+    $var05 = 6;
+    $var06 = '';
+    $var07 = "3";
+    $var08 = "true";
+    $var09 = 'false';
+    $var10 = null;
+
+    function tipoDado($varN){
+        if ($varN == true){
+            echo 'o valor '.$varN.' é verdadeiro.';
+        }
+        else{
+            echo 'o valor '.$varN.'  é falso.';
+        }
+    }
+
+    tipoDado($var01);
+    echo"<br>";
+    tipoDado($var02);
+    echo"<br>";
+    tipoDado($var03);
+    echo"<br>";
+    tipoDado($var04);
+    echo"<br>";
+    tipoDado($var05);
+    echo"<br>";
+    tipoDado($var06);
+    echo"<br>";
+    tipoDado($var07);
+    echo"<br>";
+    tipoDado($var08);
+    echo"<br>";
+    tipoDado($var09);
+    echo"<br>";
+    tipoDado($var10);
+    echo"<br>";
+
     
 </body>
 </html>
