@@ -23,5 +23,22 @@ for ($i=0; $i<=10; $i++){
 }
 echo"<br>";
 
+// exercicio 04
+$qtdeCara = 0;
+$qtdeLancamento = 0;
+while ($qtdeCara < 5){
+    $moeda = mt_rand(0,1);
+    $qtdeLancamento++;
+    if($moeda == 1){
+        $qtdeCara++;
+        echo "Cara"." ";
+    } else {
+        echo "Coroa"." ";
+    }
+}
+echo"<br>";
+echo "Foram necessários ".$qtdeLancamento." lançamentos!";
+echo "<br>"."<br>";
+
 
 ?>
