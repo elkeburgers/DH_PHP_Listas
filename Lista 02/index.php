@@ -51,6 +51,14 @@ echo"<br>";
 echo $meiaidade;
 echo"<br>";
 
+// exercício 05
+if ($meiaidade >50 && ($meiaidade %2==0)){
+    echo "O número cumpre a condição.";
+}else{
+    echo  "O número NÃO cumpre  a condição.";
+}
+echo"<br>"."<br>";
+
 ?>
 </body>
 </html>
