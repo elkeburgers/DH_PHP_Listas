@@ -40,6 +40,17 @@ if ($aleatorio != 3){
 }
 echo"<br>";
 
+// exercício 04
+$meiaidade = mt_rand(1,100);
+if ($meiaidade > 50){
+    echo "O  número é maior do que 50.";
+}else{
+    echo "O número é menor do que 50.";
+}
+echo"<br>";
+echo $meiaidade;
+echo"<br>";
+
 ?>
 </body>
 </html>
