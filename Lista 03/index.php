@@ -40,5 +40,12 @@ echo"<br>";
 echo "Foram necessários ".$qtdeLancamento." lançamentos!";
 echo "<br>"."<br>";
 
+// exercicio 05
+do{
+    $moeda = mt_rand(0,1);
+    echo $moeda." ";
+} while ($moeda !=1);
+echo "<br>"."<br>";
+
 
 ?>
