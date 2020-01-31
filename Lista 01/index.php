@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    
-<?php
+
+    <?php
 
 // exercicio 01
 // duvida no item g e h
@@ -145,6 +147,18 @@
     echo $animais[16];
     echo"<br>"."<br>";
 
+        //exercicio 05
+        $caranga = ["marca"=>"Toyota", "modelo"=>"Etios", "cor"=>"prata","ano"=>2016,"placa"=>"GBS1412"];
+        var_dump ($caranga);
+        echo"<br>";
+        $caranga[0]=["dono"=>"Elke"];
+        // não tem como colocar na posição zero
+        var_dump($caranga);
+        echo"<br>";
+        $caranga[14]=["seguradora"=>"Sulamerica"];
+        var_dump($caranga);
+        echo"<br>"."<br>";
     
+        
 </body>
 </html>
