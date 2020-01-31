@@ -186,6 +186,17 @@
         $resultado = (($inteiro*2)+$decimal)/($inteiro/2);
         echo $resultado;
         echo"<br>";
+
+    //exercício 07
+    $varx = "Olá";
+    $vary = "mundo!";
+    $varz = $varx." ".$vary;
+    echo  $varz;
+    echo"<br>";
+    $final = $varz." PHP é o máximo.";
+    echo $final;
+
+      ?>
         
 </body>
 </html>
