@@ -59,6 +59,20 @@ if ($meiaidade >50 && ($meiaidade %2==0)){
 }
 echo"<br>"."<br>";
 
+// exercício 06
+$idade=44;
+$casado=true;
+$sexo="Feminino";
+if ($idade>=18 && $casado=false){
+    echo "Boas-vidas!";
+}else{
+    if($sexo="outro"){
+        echo "Boas-vindas";
+    }
+}
+echo"<br>"."<br>";
+
+
 ?>
 </body>
 </html>
