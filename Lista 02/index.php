@@ -89,6 +89,12 @@ if($i==1){
 }
 echo"<br>";
 
+// exercício 08
+$numero = 21;
+echo $numero % 2 == 0 ? "O número é par":"O número é impar.";
+echo"<br>";
+
+
 ?>
 </body>
 </html>
