@@ -72,6 +72,22 @@ if ($idade>=18 && $casado=false){
 }
 echo"<br>"."<br>";
 
+// exercício 07
+$quantidadeDeAlunos = 100;
+if ($quantidadeDeAlunos){
+    echo "true";
+}else{
+    echo  "false";
+}
+echo"<br>";
+
+$i = $quantidadeDeAlunos;
+if($i==1){
+    echo "true";
+}else{
+    echo "false";
+}
+echo"<br>";
 
 ?>
 </body>
