@@ -124,6 +124,27 @@
     tipoDado($var10);
     echo"<br>";
 
+    //exercício 04
+    echo"<br>";
+    $animais = ["leao", "carneiro", "tigre", "vaca", "hiena"];
+    var_dump ($animais);
+    echo"<br>";
+    $animais[5]="cachorro";
+    $animais[6]="gato";
+    var_dump($animais);
+    echo"<br>";
+    echo "Eu gosto de animais: ".$animais[0].", ".$animais[1].", ".$animais[2].", ".$animais[3].", ".$animais[4].", ".$animais[5].", e ".$animais[6].".";
+    echo"<br>";
+    $animais[0]="burro";
+    echo $animais[0];
+    echo"<br>";
+    $animais[100]="gaivota";
+    echo $animais[100];
+    echo"<br>";
+    $animais[16]="albatroz";
+    echo $animais[16];
+    echo"<br>"."<br>";
+
     
 </body>
 </html>
