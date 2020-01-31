@@ -63,3 +63,11 @@ echo "<br>"."<br>";
 // echo maior(5, 8, 22);
 // echo "<br>"."<br>"
 
+// exercício 6
+
+$frase = "Adoro php! -Eu também adoro php!";
+$palavra = "php";
+$resposta = strpos ($frase, $palavra);
+echo $resposta;
+
+?>
