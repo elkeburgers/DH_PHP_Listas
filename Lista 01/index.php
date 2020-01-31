@@ -66,6 +66,19 @@
     var_dump($num);
     echo"<br>";
 
+    //exercício 02
+    $um = "Três";
+    $dois = "pratos";
+    $tres = "de";
+    $quatro = "trigo";
+    $cinco = "para";
+    $seis = "tres";
+    $sete = "tigres";
+    $oito = "tristes";
+    echo $um." ".$dois." ".$tres." ".$quatro." ".$cinco." ".$seis." ".$sete." ".$oito.".";
+    echo"<br>";
+    echo "Os ".$sete." ferozes também ficam ".$oito.".";
+    echo"<br>";
     
 </body>
 </html>
