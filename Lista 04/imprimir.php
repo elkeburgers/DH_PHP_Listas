@@ -146,4 +146,23 @@ foreach (getallheaders() as $nome=>$value){
 }
 echo "<br>"."<br>";
 
+// exercício 6 - entender melhor
+echo '<pre>';
+var_dump($_SERVER);
+echo "<br>"."<br>";
+var_dump($_FILES);
+echo "<br>"."<br>";
+var_dump($_REQUEST);
+echo "<br>"."<br>";
+var_dump($_SESSION);
+echo "<br>"."<br>";
+var_dump($_ENV);
+echo "<br>"."<br>";
+var_dump($_COOKIE);
+echo "<br>"."<br>";
+var_dump($GLOBALS);
+echo "<br>"."<br>";
+echo '</pre>';
+
+?>
 
