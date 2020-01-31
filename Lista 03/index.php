@@ -47,5 +47,35 @@ do{
 } while ($moeda !=1);
 echo "<br>"."<br>";
 
+// exercicio 06
+$nomes = ["Martha", "Helmuth", "Lorena", "Cesar", "Elke"];
+for ($i = 0; $i<5; $i++){
+    echo $nomes[$i]." ";
+}
+echo "<br>";
+
+$nomes = ["Martha", "Helmuth", "Lorena", "Cesar", "Elke"];
+foreach($nomes as $nome){
+    echo $nome." ";
+};
+echo "<br>";
+
+$nomes = ["Martha", "Helmuth", "Lorena", "Cesar", "Elke"];
+$a = 0;
+while ($a<count($nomes)){
+    echo $nomes[$a]." ";
+    $a++;
+}
+echo "<br>";
+
+$nomes = ["Martha", "Helmuth", "Lorena", "Cesar", "Elke"];
+$i = 0;
+do{
+    echo $nomes[$i]." ";
+    $i++;
+} while ($i <count($nomes));
+echo "<br>"."<br>";
+
+
 
 ?>
