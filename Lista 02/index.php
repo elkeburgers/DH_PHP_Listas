@@ -94,6 +94,24 @@ $numero = 21;
 echo $numero % 2 == 0 ? "O número é par":"O número é impar.";
 echo"<br>";
 
+// exercício 09 e 10
+$i = mt_rand(1,5);
+echo $i;
+echo"<br>";
+switch($i){
+    case 1:
+    echo "i é igual a 1";
+    break;
+    case 2:
+    echo "i é igual a 2";
+    break;
+    default:
+    echo "NÃO é igual a 1 ou 2";
+    break;
+}
+echo"<br>";
+
+
 
 ?>
 </body>
