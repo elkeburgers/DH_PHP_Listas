@@ -76,6 +76,46 @@ do{
 } while ($i <count($nomes));
 echo "<br>"."<br>";
 
+// exercicio 07
+$arraytorio = [];
+for($i=0; $i<10; $i++){
+    array_push($arraytorio,mt_rand(0,10));
+    echo $arraytorio[$i]." ";
+    if ($arraytorio[$i] == "5"){
+    echo "Encontramos um 5!";
+    break;
+    }
+}
+echo "<br>";
+
+$arraytorio = [];
+$i = 0;
+while ($i<10){
+    array_push($arraytorio,mt_rand(0,10));
+    if ($i == 5){
+        echo " Encontramos um 5! ";
+        break;
+    } else {
+        echo $arraytorio[$i]." ";
+        $i++;
+    }
+}
+echo "<br>";
+
+$arraytorio = [];
+$i = 0;
+do{
+    array_push($arraytorio,mt_rand(0,10));
+    if ($i==5){
+        echo " Encontramos um 5!";    
+        break;
+    } else {
+        echo $arraytorio[$i]." ";
+        $i++;
+} while ($i <10);    
+echo "<br>"."<br>";
+
+
 
 
 ?>
