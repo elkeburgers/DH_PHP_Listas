@@ -16,5 +16,12 @@ for ($i = 0; $i <= $pare; $i++){
 }
 echo"<br>"."<br>";
 
+// exercício 03
+for ($i=0; $i<=10; $i++){
+    echo $i*2;
+    echo "<br>";
+}
+echo"<br>";
+
 
 ?>
