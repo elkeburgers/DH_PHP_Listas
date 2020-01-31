@@ -140,4 +140,10 @@ foreach($_POST as $dados=> $valor){
 var_dump($_POST);
 echo "<br>"."<br>";
 
+// exercício 5 
+foreach (getallheaders() as $nome=>$value){
+    echo "$nome : $value <br>";
+}
+echo "<br>"."<br>";
+
 
