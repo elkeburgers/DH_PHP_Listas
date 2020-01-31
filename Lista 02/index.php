@@ -21,6 +21,16 @@ if ($vara > $varb){
 }
 echo"<br>";
 
+// exercício 02
+$aleatorio = mt_rand(1, 5);
+echo $aleatorio;
+echo"<br>";
+if ($aleatorio == 3){
+    echo $aleatorio;
+} if($aleatorio ==5){
+    echo $aleatorio;
+}
+echo"<br>";
 
 ?>
 </body>
