@@ -32,6 +32,14 @@ if ($aleatorio == 3){
 }
 echo"<br>";
 
+// exercicio 03
+if ($aleatorio != 3){
+    echo "O número NÃO é 3.";
+}else{
+    echo $aleatorio;
+}
+echo"<br>";
+
 ?>
 </body>
 </html>
