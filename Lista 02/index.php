@@ -111,6 +111,21 @@ switch($i){
 }
 echo"<br>";
 
+// exercício 11
+$x = mt_rand(1,100);
+echo $x;
+echo"<br>";
+$y = mt_rand(1,100);
+echo $y;
+echo"<br>";
+if ($x > $y){
+    echo $x;
+}else if($y > $x){
+    echo $y;
+}else{
+    echo "São iguais.";
+}
+echo"<br>";
 
 
 ?>
