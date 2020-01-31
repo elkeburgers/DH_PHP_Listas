@@ -159,6 +159,33 @@
         var_dump($caranga);
         echo"<br>"."<br>";
     
+        //exercício 06
+        $inteiro = 4;
+        $decimal = 3.5;
+        echo $inteiro + $decimal;
+        echo"<br>";
+        echo $inteiro - $decimal;
+        echo"<br>";
+        echo  $inteiro / $decimal;
+        echo"<br>";
+        echo $inteiro * $decimal;
+        echo"<br>"."<br>";
+
+        $resto = ($inteiro/$decimal);
+        echo $resto;
+        echo"<br>"."<br>";
+
+        echo $inteiro +1;
+        echo"<br>";
+        echo $decimal+1;
+        echo"<br>";
+        echo  $inteiro+5;
+        echo"<br>";
+        echo $decimal-0.6;
+        echo"<br>";
+        $resultado = (($inteiro*2)+$decimal)/($inteiro/2);
+        echo $resultado;
+        echo"<br>";
         
 </body>
 </html>
